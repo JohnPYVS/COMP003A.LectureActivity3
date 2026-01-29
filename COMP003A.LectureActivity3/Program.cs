@@ -63,20 +63,16 @@
 
             switch (semesterCode)
             {
-                case "SP":
-                    Console.WriteLine("Spring");
+                case "SP": Console.WriteLine("Spring");
+                    break;
+                    
+                case "SU": Console.WriteLine("Summer");
                     break;
 
-                case "SU":
-                    Console.WriteLine("Summer");
+                case "FA": Console.WriteLine("Fall");
                     break;
 
-                case "FA":
-                    Console.WriteLine("Fall");
-                    break;
-
-                default:
-                    Console.WriteLine("Invalid semester code");
+                default: Console.WriteLine("Invalid semester code");
                     break;
             }
 
